@@ -37,6 +37,8 @@
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
+    
+    icon_corner_radius = 10
 
     # Maximum number of notification (0 means no limit)
     notification_limit = 0
@@ -52,7 +54,7 @@
     progress_bar_height = 10
 
     # Set the frame width of the progress bar
-    progress_bar_frame_width = 3
+    progress_bar_frame_width = 0
 
     # Set the minimum width for the progress bar
     progress_bar_min_width = 150
@@ -86,10 +88,10 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 0
+    frame_width = 5
 
     # Defines color of the frame around the notification window.
-    frame_color = "#282a36"
+    frame_color = "#6272A4"
 
     # Define a color for the separator.
     # possible values are:
@@ -229,7 +231,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 0
+    corner_radius = 15
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
@@ -293,7 +295,7 @@
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
     background = "#282a36"
-    foreground = "#6272a4"
+    foreground = "#8BE9FD"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #new_icon = /path/to/icon
