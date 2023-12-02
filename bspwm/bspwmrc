@@ -27,4 +27,4 @@ bspc rule -a Firefox desktop='^1'
 setxkbmap pl
 nitrogen --restore
 picom --daemon
-sh /home/overclock404/.config/polybar/launch.sh
+sh $HOME/.config/polybar/launch.sh
