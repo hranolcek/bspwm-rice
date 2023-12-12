@@ -24,7 +24,11 @@ super + Return
 
 # program launcher
 super + s
-	dmenu_run
+	rofi -show drun
+
+# power menu
+super + c
+  sh ~/.bin/powermenu
 
 # make sxhkd reload its configuration files:
 super + Escape
